@@ -13,7 +13,7 @@ yesBtn.addEventListener("click", () => {
   hideElements();
 });
 
-noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("click", () => {
   noButtonClickCount++; // Increment the count each time "no" button is clicked
   if (noButtonClickCount > 3) { // Check if the count is more than 3
     question.innerHTML = "Em bé của anh là đáng iu nhất. Iu em 😘😘😘"; // Change the inner HTML of the question
